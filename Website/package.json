@@ -4,7 +4,8 @@
   "main": "src/app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon src/app.js -e js,mjs,ejs,css",
+    "dev": "nodemon src/app.js -e js,mjs,ejs,css",
+    "start": "node src/app.js -e js,mjs,ejs,css",
     "db:init": "sequelize init"
   },
   "keywords": [],
